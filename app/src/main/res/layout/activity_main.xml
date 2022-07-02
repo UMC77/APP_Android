@@ -8,7 +8,7 @@
 
     //앱이름 - 니빵내빵
     <TextView
-        android:id="@+id/App_name_iv"
+        android:id="@+id/App_name_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="니빵내빵🍞"
@@ -34,6 +34,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent" />
 
+    <TextView
+        android:id="@+id/menu_vegan_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비건빵"
+        android:textColor="@color/black"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintEnd_toEndOf="@id/menu_vegan_iv"
+        app:layout_constraintTop_toBottomOf="@id/menu_vegan_iv"
+        app:layout_constraintStart_toStartOf="@id/menu_vegan_iv" />
+
     //메뉴2 - 케이크
     <ImageView
         android:id="@+id/menu_cake_iv"
@@ -45,6 +56,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/menu_vegan_iv"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/menu_cake_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="케이크"
+        android:textColor="@color/black"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintEnd_toEndOf="@id/menu_cake_iv"
+        app:layout_constraintTop_toBottomOf="@id/menu_cake_iv"
+        app:layout_constraintStart_toStartOf="@id/menu_cake_iv" />
 
     //메뉴3 - 쿠키
     <ImageView
@@ -58,6 +80,17 @@
         app:layout_constraintStart_toEndOf="@+id/menu_cake_iv"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/menu_cookies_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="쿠키"
+        android:textColor="@color/black"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintEnd_toEndOf="@id/menu_cookies_iv"
+        app:layout_constraintTop_toBottomOf="@id/menu_cookies_iv"
+        app:layout_constraintStart_toStartOf="@id/menu_cookies_iv" />
+
     //메뉴4 - 도넛
     <ImageView
         android:id="@+id/menu_donut_iv"
@@ -70,7 +103,18 @@
         app:layout_constraintStart_toEndOf="@+id/menu_cookies_iv"
         app:layout_constraintTop_toTopOf="parent" />
 
-    //메뉴5 - 식빵
+    <TextView
+        android:id="@+id/menu_donut_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="도넛"
+        android:textColor="@color/black"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintEnd_toEndOf="@id/menu_donut_iv"
+        app:layout_constraintTop_toBottomOf="@id/menu_donut_iv"
+        app:layout_constraintStart_toStartOf="@id/menu_donut_iv" />
+
+    //메뉴5 - 통밀빵
     <ImageView
         android:id="@+id/menu_bread_iv"
         android:layout_width="50dp"
@@ -82,6 +126,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/menu_donut_iv"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/menu_bread_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="통밀빵"
+        android:textColor="@color/black"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintEnd_toEndOf="@id/menu_bread_iv"
+        app:layout_constraintTop_toBottomOf="@id/menu_bread_iv"
+        app:layout_constraintStart_toStartOf="@id/menu_bread_iv" />
 
     //메뉴6 - 페스츄리
     <ImageView
@@ -96,6 +151,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/menu_pastry_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="페스츄리"
+        android:textColor="@color/black"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintEnd_toEndOf="@id/menu_pastry_iv"
+        app:layout_constraintTop_toBottomOf="@id/menu_pastry_iv"
+        app:layout_constraintStart_toStartOf="@id/menu_pastry_iv" />
+
     //메뉴7 - 마카롱
     <ImageView
         android:id="@+id/menu_macaron_iv"
@@ -108,6 +174,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/menu_pastry_iv"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/menu_macaron_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="마카롱"
+        android:textColor="@color/black"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintEnd_toEndOf="@id/menu_macaron_iv"
+        app:layout_constraintTop_toBottomOf="@id/menu_macaron_iv"
+        app:layout_constraintStart_toStartOf="@id/menu_macaron_iv" />
 
     //메뉴8 - 샌드위치
     <ImageView
@@ -122,6 +199,17 @@
         app:layout_constraintStart_toEndOf="@+id/menu_macaron_iv"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/menu_sandwich_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="샌드위치"
+        android:textColor="@color/black"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintEnd_toEndOf="@id/menu_sandwich_iv"
+        app:layout_constraintTop_toBottomOf="@id/menu_sandwich_iv"
+        app:layout_constraintStart_toStartOf="@id/menu_sandwich_iv" />
+
     //메뉴9 - 파이
     <ImageView
         android:id="@+id/menu_pie_iv"
@@ -134,6 +222,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/menu_sandwich_iv"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/menu_pie_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="파이"
+        android:textColor="@color/black"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintEnd_toEndOf="@id/menu_pie_iv"
+        app:layout_constraintTop_toBottomOf="@id/menu_pie_iv"
+        app:layout_constraintStart_toStartOf="@id/menu_pie_iv" />
 
     //메뉴10 - 와플
     <ImageView
@@ -149,6 +248,17 @@
         app:layout_constraintStart_toEndOf="@+id/menu_pie_iv"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/menu_waffle_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="와플"
+        android:textColor="@color/black"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintEnd_toEndOf="@id/menu_waffle_iv"
+        app:layout_constraintTop_toBottomOf="@id/menu_waffle_iv"
+        app:layout_constraintStart_toStartOf="@id/menu_waffle_iv" />
+
     //메뉴11 - 베이글
     <ImageView
         android:id="@+id/menu_bagel_iv"
@@ -161,6 +271,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/menu_bagel_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="베이글"
+        android:textColor="@color/black"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintEnd_toEndOf="@id/menu_bagel_iv"
+        app:layout_constraintTop_toBottomOf="@id/menu_bagel_iv"
+        app:layout_constraintStart_toStartOf="@id/menu_bagel_iv" />
 
     //메뉴12 - 소금빵
     <ImageView
@@ -176,6 +297,17 @@
         app:layout_constraintStart_toEndOf="@+id/menu_bagel_iv"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/menu_saltbread_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="소금빵"
+        android:textColor="@color/black"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintEnd_toEndOf="@id/menu_saltbread_iv"
+        app:layout_constraintTop_toBottomOf="@id/menu_saltbread_iv"
+        app:layout_constraintStart_toStartOf="@id/menu_saltbread_iv" />
+
     //메뉴13 - 스콘
     <ImageView
         android:id="@+id/menu_scone_iv"
@@ -189,6 +321,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/menu_saltbread_iv"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/menu_scone_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="스콘"
+        android:textColor="@color/black"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintEnd_toEndOf="@id/menu_scone_iv"
+        app:layout_constraintTop_toBottomOf="@id/menu_scone_iv"
+        app:layout_constraintStart_toStartOf="@id/menu_scone_iv" />
 
     //메뉴14 - 고로케
     <ImageView
@@ -204,6 +347,17 @@
         app:layout_constraintStart_toEndOf="@+id/menu_scone_iv"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/menu_bitterballen_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="고로케"
+        android:textColor="@color/black"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintEnd_toEndOf="@id/menu_bitterballen_iv"
+        app:layout_constraintTop_toBottomOf="@id/menu_bitterballen_iv"
+        app:layout_constraintStart_toStartOf="@id/menu_bitterballen_iv" />
+
     //메뉴15 - 크로아상
     <ImageView
         android:id="@+id/menu_croissant_iv"
@@ -217,6 +371,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/menu_bitterballen_iv"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/menu_croissant_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="크로아상"
+        android:textColor="@color/black"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintEnd_toEndOf="@id/menu_croissant_iv"
+        app:layout_constraintTop_toBottomOf="@id/menu_croissant_iv"
+        app:layout_constraintStart_toStartOf="@id/menu_croissant_iv" />
+
+
 
 
 
