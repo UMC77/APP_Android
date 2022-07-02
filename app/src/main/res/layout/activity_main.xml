@@ -18,9 +18,9 @@
         android:includeFontPadding="false"
         android:textStyle="bold"
         android:layout_marginStart="50dp"
-        android:layout_marginBottom="550dp"
+        android:layout_marginBottom="50dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/menu_vegan_iv"
         tools:ignore="MissingConstraints" />
 
     //메뉴1 - 비건
@@ -433,45 +433,45 @@
         app:layout_constraintTop_toBottomOf="@id/menu_croissant_iv"
         app:layout_constraintStart_toStartOf="@id/menu_croissant_iv" />
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-
-    <Button
-        android:id="@+id/button_Store_A"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:layout_marginTop="450dp"
-        android:text="가게A"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:fontFamily="@font/nanum"
-        android:includeFontPadding="false" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="가게B"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:fontFamily="@font/nanum"
-        android:includeFontPadding="false"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="가게C"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:fontFamily="@font/nanum"
-        android:includeFontPadding="false"/>
+        <Button
+            android:id="@+id/button_Store_A"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="450dp"
+            android:text="가게A"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:fontFamily="@font/nanum"
+            android:includeFontPadding="false" />
 
-</LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="가게B"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:fontFamily="@font/nanum"
+            android:includeFontPadding="false"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="가게C"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:fontFamily="@font/nanum"
+            android:includeFontPadding="false"/>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

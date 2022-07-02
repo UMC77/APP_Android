@@ -31,5 +31,17 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
+
+        binding.menuDonutIv.setOnClickListener {
+            val intent = Intent(this,DonutActivity::class.java)
+            startActivity(intent)
+
+        }
+
+        binding.menuBreadIv.setOnClickListener {
+            val intent = Intent(this,BreadActivity::class.java)
+            startActivity(intent)
+
+        }
     }
 }
