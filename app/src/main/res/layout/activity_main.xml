@@ -13,11 +13,12 @@
         android:layout_height="wrap_content"
         android:text="니빵내빵🍞"
         android:textColor="@color/black"
-        android:textSize="28sp"
+        android:textSize="30sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false"
         android:textStyle="bold"
         android:layout_marginStart="50dp"
-        android:layout_marginBottom="650dp"
-        app:layout_constraintTop_toBottomOf="100dp"
+        android:layout_marginBottom="550dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:ignore="MissingConstraints" />
@@ -40,10 +41,14 @@
         android:layout_height="wrap_content"
         android:text="비건빵"
         android:textColor="@color/black"
-        android:layout_marginBottom="250dp"
+        android:textSize="17sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false"
+        app:layout_constraintTop_toTopOf="@id/menu_vegan_iv"
         app:layout_constraintEnd_toEndOf="@id/menu_vegan_iv"
-        app:layout_constraintTop_toBottomOf="@id/menu_vegan_iv"
-        app:layout_constraintStart_toStartOf="@id/menu_vegan_iv" />
+        app:layout_constraintBottom_toBottomOf="@id/menu_pastry_iv"
+        app:layout_constraintStart_toStartOf="@id/menu_vegan_iv"
+        tools:ignore="MissingConstraints" />
 
     //메뉴2 - 케이크
     <ImageView
@@ -62,6 +67,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="케이크"
+        android:textSize="17sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false"
         android:textColor="@color/black"
         android:layout_marginBottom="250dp"
         app:layout_constraintEnd_toEndOf="@id/menu_cake_iv"
@@ -86,6 +94,9 @@
         android:layout_height="wrap_content"
         android:text="쿠키"
         android:textColor="@color/black"
+        android:textSize="17sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false"
         android:layout_marginBottom="250dp"
         app:layout_constraintEnd_toEndOf="@id/menu_cookies_iv"
         app:layout_constraintTop_toBottomOf="@id/menu_cookies_iv"
@@ -109,6 +120,9 @@
         android:layout_height="wrap_content"
         android:text="도넛"
         android:textColor="@color/black"
+        android:textSize="17sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false"
         android:layout_marginBottom="250dp"
         app:layout_constraintEnd_toEndOf="@id/menu_donut_iv"
         app:layout_constraintTop_toBottomOf="@id/menu_donut_iv"
@@ -125,6 +139,7 @@
         android:layout_marginEnd="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/menu_donut_iv"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -133,6 +148,9 @@
         android:layout_height="wrap_content"
         android:text="통밀빵"
         android:textColor="@color/black"
+        android:textSize="17sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false"
         android:layout_marginBottom="250dp"
         app:layout_constraintEnd_toEndOf="@id/menu_bread_iv"
         app:layout_constraintTop_toBottomOf="@id/menu_bread_iv"
@@ -156,6 +174,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="페스츄리"
+        android:textSize="17sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false"
         android:textColor="@color/black"
         android:layout_marginBottom="250dp"
         app:layout_constraintEnd_toEndOf="@id/menu_pastry_iv"
@@ -181,6 +202,9 @@
         android:layout_height="wrap_content"
         android:text="마카롱"
         android:textColor="@color/black"
+        android:textSize="17sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false"
         android:layout_marginBottom="250dp"
         app:layout_constraintEnd_toEndOf="@id/menu_macaron_iv"
         app:layout_constraintTop_toBottomOf="@id/menu_macaron_iv"
@@ -205,6 +229,9 @@
         android:layout_height="wrap_content"
         android:text="샌드위치"
         android:textColor="@color/black"
+        android:textSize="17sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false"
         android:layout_marginBottom="250dp"
         app:layout_constraintEnd_toEndOf="@id/menu_sandwich_iv"
         app:layout_constraintTop_toBottomOf="@id/menu_sandwich_iv"
@@ -229,6 +256,9 @@
         android:layout_height="wrap_content"
         android:text="파이"
         android:textColor="@color/black"
+        android:textSize="17sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false"
         android:layout_marginBottom="250dp"
         app:layout_constraintEnd_toEndOf="@id/menu_pie_iv"
         app:layout_constraintTop_toBottomOf="@id/menu_pie_iv"
@@ -246,6 +276,7 @@
         android:layout_marginEnd="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/menu_pie_iv"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -254,6 +285,9 @@
         android:layout_height="wrap_content"
         android:text="와플"
         android:textColor="@color/black"
+        android:textSize="17sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false"
         android:layout_marginBottom="250dp"
         app:layout_constraintEnd_toEndOf="@id/menu_waffle_iv"
         app:layout_constraintTop_toBottomOf="@id/menu_waffle_iv"
@@ -278,6 +312,9 @@
         android:layout_height="wrap_content"
         android:text="베이글"
         android:textColor="@color/black"
+        android:textSize="17sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false"
         android:layout_marginBottom="250dp"
         app:layout_constraintEnd_toEndOf="@id/menu_bagel_iv"
         app:layout_constraintTop_toBottomOf="@id/menu_bagel_iv"
@@ -303,6 +340,9 @@
         android:layout_height="wrap_content"
         android:text="소금빵"
         android:textColor="@color/black"
+        android:textSize="17sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false"
         android:layout_marginBottom="250dp"
         app:layout_constraintEnd_toEndOf="@id/menu_saltbread_iv"
         app:layout_constraintTop_toBottomOf="@id/menu_saltbread_iv"
@@ -328,6 +368,9 @@
         android:layout_height="wrap_content"
         android:text="스콘"
         android:textColor="@color/black"
+        android:textSize="17sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false"
         android:layout_marginBottom="250dp"
         app:layout_constraintEnd_toEndOf="@id/menu_scone_iv"
         app:layout_constraintTop_toBottomOf="@id/menu_scone_iv"
@@ -353,6 +396,9 @@
         android:layout_height="wrap_content"
         android:text="고로케"
         android:textColor="@color/black"
+        android:textSize="17sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false"
         android:layout_marginBottom="250dp"
         app:layout_constraintEnd_toEndOf="@id/menu_bitterballen_iv"
         app:layout_constraintTop_toBottomOf="@id/menu_bitterballen_iv"
@@ -370,6 +416,7 @@
         android:layout_marginEnd="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/menu_bitterballen_iv"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -378,13 +425,53 @@
         android:layout_height="wrap_content"
         android:text="크로아상"
         android:textColor="@color/black"
+        android:textSize="17sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false"
         android:layout_marginBottom="250dp"
         app:layout_constraintEnd_toEndOf="@id/menu_croissant_iv"
         app:layout_constraintTop_toBottomOf="@id/menu_croissant_iv"
         app:layout_constraintStart_toStartOf="@id/menu_croissant_iv" />
 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
+    <Button
+        android:id="@+id/button_Store_A"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="450dp"
+        android:text="가게A"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="가게B"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="가게C"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/nanum"
+        android:includeFontPadding="false"/>
 
+</LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
