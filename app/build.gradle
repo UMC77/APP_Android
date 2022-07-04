@@ -1,9 +1,13 @@
+//대부분의 빌드 설정은 모듈 수준의 그래들 파일에 작성
+
+//플러그인 선언
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
 }
 
 android {
+    //컴파일 버전 설정 : 안드로이드 SDK 32 버전으 적용해서 컴파일 하라는 의미
     compileSdk 32
 
     viewBinding {
@@ -11,9 +15,12 @@ android {
     }
 
     defaultConfig {
+        //앱의 식별자를 설정 - 중복되면 안됨
         applicationId "com.example.umc77"
-        minSdk 21
-        targetSdk 32
+        //SDK 버전 설정
+        minSdk 21 //앱을 설치할 수 있는 기기의 최소 SDK 버전을 의미
+        targetSdk 32 //개발할 때 적용되는 SDK 버전을 의미
+        //앱의 버전 설정 - 초깃값은 1이지만 앱이 업데이트 되는 경우 버전을 올려서 다시 배포
         versionCode 1
         versionName "1.0"
 
@@ -26,6 +33,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    //컴파일 옵션
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -34,7 +42,7 @@ android {
         jvmTarget = '1.8'
     }
 }
-
+//라이브러리 설정
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.7.0'
